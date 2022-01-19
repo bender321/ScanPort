@@ -11,4 +11,4 @@
 ### Příklad:
 - ./run.sh -v -s -t=3 22 25 80 
 - pozn. seznam portů je vždy nutné psát až po přepínačích a ve formě čísel, jinak program skončí s hlášením: Wrong parameters were given...
--defaultní host je v main.py nastaven jako HOST=127.0.0.1, lze ho změnit zde, stejně tak jako časový rozestup mezi scany WAIT_POINT
+-defaultní host je v main.py nastaven jako HOST=127.0.0.1, lze ho změnit v python scriptu, stejně tak jako časový rozestup mezi scany WAIT_POINT
