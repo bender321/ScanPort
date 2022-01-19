@@ -1,6 +1,6 @@
 # ScanPort
 ### Použití:
-- v terminálu spustit sourbor run.sh
+- v terminálu spustit skript run.sh
 #### přepínače:
 - -v pro vizualizaci outputu výsledků
 - -r pro čtení ze souboru, který je předem definovaný jako scan_results.json
@@ -11,4 +11,5 @@
 ### Příklad:
 - ./run.sh -v -s -t=3 22 25 80 
 - pozn. seznam portů je vždy nutné psát až po přepínačích a ve formě čísel, jinak program skončí s hlášením: Wrong parameters were given...
--defaultní host je v main.py nastaven jako HOST=127.0.0.1, lze ho změnit v python scriptu, stejně tak jako časový rozestup mezi scany WAIT_POINT
+- nutno mít oba skripty ve stejném adresáři, případně je potřeba upravit cestu k python skriptu v run.sh 
+- defaultní host je v main.py nastaven jako HOST=127.0.0.1, lze ho změnit v python skriptu, stejně tak jako časový rozestup mezi scany WAIT_POINT
