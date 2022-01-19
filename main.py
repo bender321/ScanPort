@@ -3,7 +3,6 @@ import sys
 import time
 import json
 
-
 HOST = '127.0.0.1'
 WAIT_POINT = 5
 
